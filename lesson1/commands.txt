@@ -1,0 +1,18 @@
+sudo snap install pycharm-community --classic
+
+python3 -m venv my_env
+source my_env/bin/activate
+deactivate
+pip install [пакет]
+pip uninstall [пакет]
+
+# выведет список зависимостей
+  pip freeze
+
+pip freeze -o requirements.txt
+
+# в файл с зависимостями requirements.txt записываются библиотеки в формате:
+  requests==2.27.1
+
+pip install pipreqs
+pipreqs
